@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.8]{geometry}
+\geometry{
+bottom = 5mm,
+top = 5mm
+}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Amit Priyankar} % Your first name
+%\familyname{Bhardwaj} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\address{Address:}{A-304,Boys Hostel, IIT Patna, Bihta, Patna, Bihar, 801103, India}
+
+\mobile{(+91) 6200198286}
+\email{amitpriyankar22@gmail.com}
+%\email{amit.cs17@iitp.ac.in}
+\social[github]{amitpriyankar}
+\social[linkedin]{amitpriyankar}
+
+%\homepage{www.linkedin.com/in/anmol-sikka-696537103/} {LinkedIn} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\homepage{https://sites.google.com/view/sikka-anmol/home}{Homepage}
+%\extrainfo{DOB: September 15, 1997}
+%\photo[70pt][0.4pt]{pictures/House} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2017--2021}
+{Indian Institute of Technology Patna}{}{}{\textit{Bachelor of Technology in Computer Science and Engineering,} GPA: \textit{7.92/10} (After 4 semesters)}{}
+
+\cventry{2017}{Intermediate}{}{}{\textit{SB Senior Secondary School, RBSE, 86.80\%}}{}
+
+\cventry{2015}{Matriculation}{}{}{\textit{JNV Palamu-1, CGPA 10.0}}{}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Baseball}
+
+%----------------------------------------------------------------------------------------
+%	Achievements SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+%
+\cvitem{Programming}{\textsc{C, C++, Solidity, Python(Basics)}}
+\cvitem{Development Tools}{\textsc{HTML, CSS, JavaScript(Basics), React(Basics)}}
+
+%----------------------------------------------------------------------------------------
+\section{Achievements}
+
+\cvitem{Competitive Programming}{Ranked 227 out of 4401 teams and qualified for \textbf{ICPC} India Regionals 2019.}
+\cvitem{Badges} {Expert(max. rating 1740) on \textbf{Codeforces} and 5-star coder(max. rating 2048) on \textbf{Codechef.}}
+\cvitem{June 2019} {Secured 64th rank in \textbf{Codechef June'19 Lunchtime} in Division 1.}
+\cvitem{Sept' 2019} {Secured 206th rank in \textbf{Google Kickstart 2019, Round F}}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+%\section{Certifications}
+
+%\cventry{April 2015 -- April 2017}{Certified LabVIEW Associate Developer}{\textsc{National Instruments}}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	Research SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Techincal Projects SECTION
+
+
+%----------------------------------------------------------------------------------------
+%	Course Projects SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+\cvitem{Jan'19 - April'19}{{\textbf{Leave Management System} \textit{using} \textbf{Blockchain}}
+\begin{itemize}
+  \item[-] Under\textit{ Prof. Rajiv Misra}
+\end{itemize}
+{\begin{itemize}
+    \item Built a decentralized application on the ethereum blockchain.
+    \item Implemented the smart contract in Solidity language and frontend through We3.js
+    % \item Developed an user interface using \textsc{REACT} and deployed the application on ethereum blockchain.
+  \end{itemize}
+  }}
+  
+  \cvitem{June'19 - Oct'19}{\textbf{Website for } \textbf{INFINITO 2k19} \textit{(Sports fest of IIT Patna)}
+    {\begin{itemize}
+    \item Developed the user interface for the website.
+    \item Technologies used were HTML, CSS, JavaScript.
+  \end{itemize}
+  }}
+  
+%   \cvitem{Nov'19 - Present}{{\textbf{Rojgar Portal} \textit{(DBMS Project)}}
+% \begin{itemize}
+%   \item[-] Under\textit{ Prof. Samrat Mondal}
+% \end{itemize}
+% {\begin{itemize}
+%     \item Created a database for the portal where people post jobs and daily wages workers can apply.
+%     % \item Deployed the application on Ethereum Blockchain
+%     \item Developed a web interface using HTML, CSS, and PHP
+%   \end{itemize}
+%   }}
+
+
+
+%	Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Coursework}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{Computer Science}{Programming and Data Structures, Algorithms, Database Management System, Innovation Design Lab}
+
+\cvitem{Mathematics}{Discrete Mathematics, Probability, Linear Algebra and ODE}
+
+
+\cvitem{Others}{Macro Economics, Blockchain, Smart Contracts, Introductory Sociology}
+
+
+\cvitem{}{}
+%\cvitem{}{* -To be completed by Apr 2019}
+
+%----------------------------------------------------------------------------------------
+%	Institute Positions SECTION
+%----------------------------------------------------------------------------------------
+\section{Position of Responsibilities}
+
+\cvitem{June'18-April'19}{Former \textbf{Technical Secretary}, Sophomore Year at \textit{Student Gymkhana, IIT Patna}}
+
+
+\cvitem{June'19 - Present}{\textbf{Coordinator, Web and App Development , INFINITO} (Sports Fest of IIT Patna)}
+
+
+%\cvlistdoubleitem{Basics of Electricity & Magnetism}{Computer Programming and Utilization}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
+
